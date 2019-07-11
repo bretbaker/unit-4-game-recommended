@@ -1,0 +1,117 @@
+/* Elements */
+body {
+    font-family: 'Russo One', sans-serif;
+    background-image: url("../images/congruent_pentagon/congruent_pentagon.png");
+}
+
+/* Classes */
+
+.gem-image {
+    width: 15%;
+    background-color: #b1f6cb;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+    padding: 1%;
+}
+
+/* IDs */
+
+#page-container {
+    position: relative;
+    min-height: 100vh;
+}
+
+#content-wrap {
+    padding-bottom: 1.75rem;
+}
+
+#game-title {
+    width: 78%;
+    margin: 1% 10%;
+    text-align: center;
+    font-size: 3rem;
+    padding: 1%;
+    background-color: #b1f6cb;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+#instructions {
+    width: 78%;
+    margin: 1% 10%;
+    padding: 1%;
+    background-color: #b1f6cb;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+}
+
+#number-score-container {
+    width: 60%;
+    margin: 1% auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#number-container {
+    display: inline-block;
+    background-color: #b1f6cb;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+    height: 100px;
+    width: 40%;
+    padding: 1%;
+    text-align: center;
+}
+
+#number {
+    font-size: 3rem;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+#score-container {
+    display: inline-block;
+    background-color: #b1f6cb;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+    height: 100px;
+    width: 40%;
+    padding: 1%;
+    text-align: center;
+}
+
+#wins {
+    font-size: 2rem;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+#losses {
+    font-size: 2rem;
+    color: white;
+    text-shadow: 3px 3px black;
+}
+
+#gem-container {
+    height: 150px;
+    width: 60%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#footer {
+    position: absolute;
+    bottom: 2%;
+    width: 79.5%;
+    margin: 0 10%;
+    padding: 0.25%;
+    text-align: center;
+    background-color: #b1f6cb;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+}
