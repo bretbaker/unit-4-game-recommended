@@ -8,7 +8,7 @@ body {
 
 .gem-image {
     width: 15%;
-    background-color: #b1f6cb;
+    background-color: white;
     border-radius: 5px;
     box-shadow: 5px 5px 10px black;
     padding: 1%;
@@ -31,10 +31,10 @@ body {
     text-align: center;
     font-size: 3rem;
     padding: 1%;
-    background-color: #b1f6cb;
+    background-color: white;
     border-radius: 5px;
     box-shadow: 5px 5px 10px black;
-    color: white;
+    color: #b1f6cb;
     text-shadow: 3px 3px black;
 }
 
@@ -42,7 +42,7 @@ body {
     width: 78%;
     margin: 1% 10%;
     padding: 1%;
-    background-color: #b1f6cb;
+    background-color: white;
     border-radius: 5px;
     box-shadow: 5px 5px 10px black;
 }
@@ -57,7 +57,7 @@ body {
 
 #number-container {
     display: inline-block;
-    background-color: #b1f6cb;
+    background-color: white;
     border-radius: 5px;
     box-shadow: 5px 5px 10px black;
     height: 100px;
@@ -68,13 +68,13 @@ body {
 
 #number {
     font-size: 3rem;
-    color: white;
+    color: #b1f6cb;
     text-shadow: 3px 3px black;
 }
 
 #score-container {
     display: inline-block;
-    background-color: #b1f6cb;
+    background-color: white;
     border-radius: 5px;
     box-shadow: 5px 5px 10px black;
     height: 100px;
@@ -85,13 +85,13 @@ body {
 
 #wins {
     font-size: 2rem;
-    color: white;
+    color: #b1f6cb;
     text-shadow: 3px 3px black;
 }
 
 #losses {
     font-size: 2rem;
-    color: white;
+    color: #b1f6cb;
     text-shadow: 3px 3px black;
 }
 
@@ -111,7 +111,7 @@ body {
     margin: 0 10%;
     padding: 0.25%;
     text-align: center;
-    background-color: #b1f6cb;
+    background-color: white;
     border-radius: 5px;
     box-shadow: 5px 5px 10px black;
 }
