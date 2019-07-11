@@ -7,7 +7,7 @@ body {
 /* Classes */
 
 .gem-image {
-    width: 15%;
+    width: 20%;
     background-color: white;
     border-radius: 5px;
     box-shadow: 5px 5px 10px black;
@@ -96,8 +96,7 @@ body {
 }
 
 #gem-container {
-    height: 150px;
-    width: 60%;
+    width: 50%;
     margin: 0 auto;
     display: flex;
     align-items: center;
