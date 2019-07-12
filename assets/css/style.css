@@ -14,6 +14,10 @@ body {
     padding: 1%;
 }
 
+.gem-image:hover {
+    cursor: pointer;
+}
+
 /* IDs */
 
 #page-container {
@@ -47,7 +51,7 @@ body {
     box-shadow: 5px 5px 10px black;
 }
 
-#number-score-container {
+#num-win-loss-container {
     width: 60%;
     margin: 1% auto;
     display: flex;
@@ -72,7 +76,7 @@ body {
     text-shadow: 3px 3px black;
 }
 
-#score-container {
+#win-loss-container {
     display: inline-block;
     background-color: white;
     border-radius: 5px;
@@ -101,6 +105,30 @@ body {
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+
+#total-score-container {
+    margin: 1% auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#score-container {
+    display: inline-block;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px black;
+    height: 100px;
+    width: 40%;
+    padding: 1%;
+    text-align: center;
+}
+
+#score {
+    font-size: 3rem;
+    color: #b1f6cb;
+    text-shadow: 3px 3px black;
 }
 
 #footer {
